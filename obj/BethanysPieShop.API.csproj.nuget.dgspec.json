@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gvardanyan\\source\\repos\\demo-web-app\\api-app\\BethanysPieShop.API.csproj": {}
+    "C:\\Users\\gvardanyan\\source\\repos\\demo-web-app\\api-app\\bethshop\\BethanysPieShop.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gvardanyan\\source\\repos\\demo-web-app\\api-app\\BethanysPieShop.API.csproj": {
+    "C:\\Users\\gvardanyan\\source\\repos\\demo-web-app\\api-app\\bethshop\\BethanysPieShop.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gvardanyan\\source\\repos\\demo-web-app\\api-app\\BethanysPieShop.API.csproj",
+        "projectUniqueName": "C:\\Users\\gvardanyan\\source\\repos\\demo-web-app\\api-app\\bethshop\\BethanysPieShop.API.csproj",
         "projectName": "BethanysPieShop.API",
-        "projectPath": "C:\\Users\\gvardanyan\\source\\repos\\demo-web-app\\api-app\\BethanysPieShop.API.csproj",
+        "projectPath": "C:\\Users\\gvardanyan\\source\\repos\\demo-web-app\\api-app\\bethshop\\BethanysPieShop.API.csproj",
         "packagesPath": "C:\\Users\\gvardanyan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gvardanyan\\source\\repos\\demo-web-app\\api-app\\obj\\",
+        "outputPath": "C:\\Users\\gvardanyan\\source\\repos\\demo-web-app\\api-app\\bethshop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -23,15 +23,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.0"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.0": {
-            "targetAlias": "netcoreapp2.0",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -42,22 +42,34 @@
         }
       },
       "frameworks": {
-        "netcoreapp2.0": {
-          "targetAlias": "netcoreapp2.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "dependencies": {
-            "Microsoft.AspNetCore.All": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[2.0.6, )"
+              "version": "[5.0.2, )"
             },
-            "Microsoft.NETCore.App": {
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.0.0, )",
-              "autoReferenced": true
+              "version": "[5.0.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.1, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[2.3.0, )"
+              "version": "[5.6.3, )"
             }
           },
           "imports": [
@@ -70,6 +82,14 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
