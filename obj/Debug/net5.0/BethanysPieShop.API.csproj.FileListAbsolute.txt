@@ -127,3 +127,4 @@ C:\Users\gvardanyan\source\repos\demo-web-app\api-app\bethshop\obj\Debug\net5.0\
 C:\Users\gvardanyan\source\repos\demo-web-app\api-app\bethshop\obj\Debug\net5.0\ref\BethanysPieShop.API.dll
 C:\Users\gvardanyan\source\repos\demo-web-app\api-app\bethshop\obj\Debug\net5.0\BethanysPieShop.API.pdb
 C:\Users\gvardanyan\source\repos\demo-web-app\api-app\bethshop\obj\Debug\net5.0\BethanysPieShop.API.genruntimeconfig.cache
+C:\Users\gvardanyan\source\repos\demo-web-app\api-app\bethshop\obj\Debug\net5.0\BethanysPieShop.API.csprojAssemblyReference.cache

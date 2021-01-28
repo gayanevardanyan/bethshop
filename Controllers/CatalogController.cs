@@ -29,7 +29,7 @@ namespace BethanysPieShop.API.Controllers
         {
             var items = await _appDbContext.Pies
                               .OrderBy(p => p.Name)
-                              .Include(p => p.Category)
+                             // .Include(p => p.Category)
                               .Skip(pageSize * pageIndex)
                               .Take(pageSize)
                               .ToListAsync();
